@@ -1,4 +1,6 @@
-﻿namespace Lib;
+﻿using System.Linq;
+
+namespace Lib;
 
 public static class Test
 {
