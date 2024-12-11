@@ -4,16 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Biblioteca WebAssembly</title>
-    <script>
-        async function loadWasm() {
-            const { instance } = await WebAssembly.instantiateStreaming(fetch('Lib.wasm'));
-            instance.exports.ExibirMensagem();
-        }
-        loadWasm();
-    </script>
+    <script type="module" src="wasmer.js"></script>
 </head>
 <body>
     <h1>Testando a Biblioteca C# em WebAssembly</h1>
-    <button onclick="loadWasm()">Carregar Biblioteca WebAssembly</button>
 </body>
 </html>

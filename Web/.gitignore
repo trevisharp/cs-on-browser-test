@@ -1,1 +1,5 @@
 *.wasm
+*.js
+*.json
+*.dat
+!wasmer.js
