@@ -4,6 +4,7 @@
     <TargetFramework>net8.0-browser</TargetFramework>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <OutputType>Library</OutputType>
+    <RunAOTCompilation>true</RunAOTCompilation>
   </PropertyGroup>
 
 </Project>
